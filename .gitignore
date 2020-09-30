@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+#don't include data files
+data/
+
 # Distribution / packaging
 .Python
 build/
@@ -127,3 +130,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+flaskr/.DS_Store
+.DS_Store
